@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# R Statistics Essential Training\n# Ex01_03\n# Taking a first look at the interface\n\n8 + 5  # Basic math; press cmd/ctrl-enter\n \n1:250  # Prints numbers 1 to 100 across several lines\n\nprint(\"Hello World!\")  # Prints \"Hello World\" in console\n\n# Variables\nx <- 1:5  # Put the numbers 1-5 in the variable x\nx  # Displays the values in x\n\ny <- c(6, 7, 8, 9, 10)  # Puts the numbers 6-10 in y\ny\n\na <- 1  # Use <- and not =\n2 -> a  # Can go other way, but silly\na <- b <- c <- 3  # Multiple assignments\n\n# Vector Math\nx\ny\nx + y  # Adds corresponding elements in x and y\nx * 2  # Multiplies each element in x by 2\n\n# \"Google's R Style Guide\"\nbrowseURL(\"https://google.github.io/styleguide/Rguide.xml\")\n\n# Clean up\nrm(x)  # Remove an object from workspace\nrm(a, b)  # Remove more than one\nrm(list = ls())  # Clear entire workspace",
+    "created" : 1492917370902.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "355791947",
+    "id" : "1A48FBDE",
+    "lastKnownWriteTime" : 1492917417,
+    "last_content_update" : 1492917417328,
+    "path" : "C:/Users/Swagger/Desktop/R-WorkSpace/R Code Examples/Lynda - R essentials/Example_code_snipettes/Exercise Files/Ch01/01_03/final/Ex01_03.R",
+    "project_path" : "Exercise Files/Ch01/01_03/final/Ex01_03.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

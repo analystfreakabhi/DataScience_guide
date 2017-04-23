@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# R Statistics Essential Training\n# Ex01_10\n# Exploring Color with RColorBrewer\n\n# Barplot\nx = c(12, 4, 21, 17, 13, 9)\nbarplot(x)\n\n# RColorBrewer\nbrowseURL(\"http://colorbrewer2.org/\")  # Uses Flash\ninstall.packages(\"RColorBrewer\")\nhelp(package = \"RColorBrewer\")\nrequire(\"RColorBrewer\")\n\n# Show all of the palettes in a graphics window\ndisplay.brewer.all()\n\n# To see palette colors in separate window, give number\n# of desired colors and name of palette in quotes\ndisplay.brewer.pal(8, \"Accent\")\ndisplay.brewer.pal(8, \"RdBu\")\ndisplay.brewer.pal(4, \"Spectral\")\n\n# Barplots\n# Can save palette as vector or call in function\nblues <- brewer.pal(6, \"Blues\")\nbarplot(x, col = blues)\nbarplot(x, col = brewer.pal(6, \"Greens\"))\nbarplot(x, col = brewer.pal(6, \"YlOrRd\"))\nbarplot(x, col = brewer.pal(6, \"RdGy\"))\nbarplot(x, col = brewer.pal(6, \"BrBG\"))\nbarplot(x, col = brewer.pal(6, \"Dark2\"))\nbarplot(x, col = brewer.pal(6, \"Paired\"))\nbarplot(x, col = brewer.pal(6, \"Pastel2\"))\nbarplot(x, col = brewer.pal(6, \"Set3\"))\n\n# Clean up\npalette(\"default\")  # Return to default\ndetach(\"package:RColorBrewer\", unload = TRUE)\nrm(list = ls())  ",
+    "created" : 1492921840352.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3342820098",
+    "id" : "739B0069",
+    "lastKnownWriteTime" : 1492917202,
+    "last_content_update" : 1492922234071,
+    "path" : "C:/Users/Swagger/Desktop/R-WorkSpace/R Code Examples/Lynda - R essentials/Example_code_snipettes/Exercise Files/Ch01/01_10/final/Ex01_10.R",
+    "project_path" : "Exercise Files/Ch01/01_10/final/Ex01_10.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

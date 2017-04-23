@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# R Statistics Essential Training\n# Ex02_03\n# Creating histograms for quantitative variables\n",
+    "created" : 1492923386765.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3733194248",
+    "id" : "6B4B3CBA",
+    "lastKnownWriteTime" : 1492917202,
+    "last_content_update" : 1492917202,
+    "path" : "C:/Users/Swagger/Desktop/R-WorkSpace/R Code Examples/Lynda - R essentials/Example_code_snipettes/Exercise Files/Ch02/02_03/Ex02_03.R",
+    "project_path" : "Exercise Files/Ch02/02_03/Ex02_03.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
