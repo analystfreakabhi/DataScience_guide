@@ -1,0 +1,11 @@
+1) set env
+2) set working directory / get wd
+3) import CSV in R and work as dataframe
+4) r project | r script | r try-catch blocks
+5) connect to mysql db and import sakila DB
+6) connect to mysql db and write complicated join and create R dataframe
+7) r - read json
+8) r - read xml
+9) r - use ggplot
+10) create lists - with 1) planet vector 2) planet factors 3) matrix 
+11) rscript  - get command line parameter } and print them 
